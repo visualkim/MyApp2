@@ -30,5 +30,12 @@
         android:layout_height="wrap_content"
         android:id="@+id/tvResult"
         android:textSize="40dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnBack"
+        android:background="#FF282828"
+        android:textColor="#FFFFFFFF"
+        android:text="Back"/>
 
 </LinearLayout>

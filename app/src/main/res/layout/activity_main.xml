@@ -13,18 +13,18 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnHome"
-        android:text="홈 페이지 열기"/>
+        android:id="@+id/btnCalc"
+        android:text="계산기"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnLogin"
+        android:text="로그인"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnGMap"
         android:text="구글 맵 열기"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/btnGSearch"
-        android:text="구글 검색하기"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
