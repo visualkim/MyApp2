@@ -6,5 +6,4 @@ package com.example.cypri.myapp2;
 public class KaupService {
     String txtName, txtResult;
     double txtWeight, txtHeight;
-
 }
