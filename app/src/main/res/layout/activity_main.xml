@@ -5,30 +5,34 @@
     android:orientation="vertical"
     android:padding="30dp"
     >
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/editName"
-        android:hint="이름"/>
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/editWeight"
-        android:hint="몸무게"/>
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/editHeight"
-        android:hint="키"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnCheck"
-        android:text="확인"/>
-    <TextView
+        android:id="@+id/btnKaup"
+        android:text="Kaup"/>
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/tvResult"
-        android:textSize="40dp"/>
-
+        android:id="@+id/btnHome"
+        android:text="홈 페이지 열기"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnGMap"
+        android:text="구글 맵 열기"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnGSearch"
+        android:text="구글 검색하기"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSMS"
+        android:text="문자 보내기"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnPhoto"
+        android:text="사진 보기"/>
 </LinearLayout>

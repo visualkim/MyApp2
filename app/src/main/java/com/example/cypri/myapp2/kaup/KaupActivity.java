@@ -2,10 +2,12 @@ package com.example.cypri.myapp2.kaup;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.cypri.myapp2.R;
 
@@ -40,7 +42,11 @@ public class KaupActivity extends Activity implements View.OnClickListener {
         txtHeight = Double.parseDouble( editHeight.getText().toString() );
 
         KaupService service = new KaupServiceImpl();
-        double aa = service.getKaup( txtWeight, txtHeight );
-        tvResult.setText( txtName + "님의 계산결과: " + aa );
+        txtResult = service.getKaup( txtWeight, txtHeight );
+        tvResult.setText( txtName + "님의 계산결과: " + txtResult );
+
+        Toast toast = Toast.makeText( KaupActivity.this, " test ", Toast.LENGTH_LONG);
+        toast.show();
+        Log.d( txtResult, "카우프 지수");
     }
 }

@@ -6,8 +6,8 @@ package com.example.cypri.myapp2.kaup;
 public class KaupServiceImpl implements KaupService {
 
     @Override
-    public double getKaup(double txtWeight, double txtHeight) {
-        double idx = (double)(txtWeight / (txtHeight * txtHeight )) * 10000;
+    public String getKaup(double txtWeight, double txtHeight) {
+        int idx = (int)(txtWeight / (txtHeight * txtHeight ) * 10000) ;
 
         String result = "";
 
@@ -26,7 +26,5 @@ public class KaupServiceImpl implements KaupService {
         } else {
             result = "소모증";
         }
-        return idx;
-
-    }
+        return result;    }
 }
