@@ -23,16 +23,27 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnGMap"
-        android:text="구글 맵 열기"/>
+        android:id="@+id/btnSignup"
+        android:text="회원가입"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnSMS"
-        android:text="문자 보내기"/>
+        android:id="@+id/btnGroup"
+        android:text="걸그룹"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnPhoto"
-        android:text="사진 보기"/>
+        android:id="@+id/btnMovie"
+        android:text="영화"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSpinner"
+        android:text="스피너"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnIntro"
+        android:text="인트로 웹뷰"
+        />
 </LinearLayout>
